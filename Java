@@ -1,0 +1,10 @@
+public static void main (String[] args)
+{
+  int Songs=0;
+  float DollarPrice = 0.0;
+  Scanner scanner = New Scanner(System.in);
+  println("Enter the number of songs you wish to purchase today.");
+  Songs = scanner.nextInt();
+  DollarPrice = 0.99 * Songs;
+  println(DollarPrice);
+  } 
